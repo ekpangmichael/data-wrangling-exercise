@@ -7,7 +7,7 @@ d3.csv("./csvfiles/gas_monthly_prices.csv")
       .row((d)=> {
         return {
           
-          date: parseDate(d.date),
+          dsate: parseDate(d.date),
           price: Number(d.price)
         }
       })
