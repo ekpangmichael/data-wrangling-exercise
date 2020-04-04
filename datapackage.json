@@ -1,0 +1,65 @@
+{
+  "profile": "tabular-data-package",
+  "resources": [
+    {
+      "name": "daily_gas_price",
+      "path": "csvfiles/gas_daily_prices.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "date",
+            "type": "date",
+            "format": "default",
+            "title": "Date"
+          },
+          {
+            "name": "price",
+            "type": "integer",
+            "format": "default",
+            "title": "Price",
+            "description": "Daily gas price"
+          }
+        ]
+      }
+    },
+    {
+      "name": "monthly_gas_price",
+      "path": "csvfiles/gas_monthly_prices.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "date",
+            "type": "date",
+            "format": "default",
+            "title": "Date"
+          },
+          {
+            "name": "price",
+            "type": "integer",
+            "format": "default",
+            "title": "Price",
+            "description": "Monthly gas price"
+          }
+        ]
+      }
+    }
+  ],
+  "name": "gas-price",
+  "title": "Daily Monthly gas price",
+  "description": " Henry Hub gas prices. Data gotten from here http://www.eia.gov/dnav/ng/hist/rngwhhdm.htm",
+  "contributors": [
+    {
+      "title": "Ekpang Michael",
+      "role": "author"
+    }
+  ],
+  "licenses": [
+    {
+      "name": "CC0-1.0",
+      "title": "CC0 1.0",
+      "path": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+  ]
+}
