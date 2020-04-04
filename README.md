@@ -2,7 +2,7 @@
 
 A python script to get a nice CSV file of natural gas prices.
 
-## You can view a graph visualization of the data from the link below
+### You can view a graph visualization of the data from the link below
 
  [https://ekpangmichael.github.io/data-wrangling-exercise/](https://ekpangmichael.github.io/data-wrangling-exercise/)
 
