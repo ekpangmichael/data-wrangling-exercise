@@ -1,0 +1,26 @@
+{
+  "profile": "tabular-data-package",
+  "resources": [
+    {
+      "name": "daily_gas_price",
+      "path": "gas_daily_prices.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "date",
+            "type": "date",
+            "format": "default",
+            "title": "Date"
+          },
+          {
+            "name": "price",
+            "type": "integer",
+            "format": "default",
+            "title": "Price"
+          }
+        ]
+      }
+    }
+  ]
+}
