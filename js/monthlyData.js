@@ -3,7 +3,7 @@
 
 
 const parseDate = d3.timeParse("%Y-%m-%d");
-d3.csv("/csvfiles/gas_monthly_prices.csv")
+d3.csv("./csvfiles/gas_monthly_prices.csv")
       .row((d)=> {
         return {
           
